@@ -1,0 +1,28 @@
+{
+  "name": "valten-server",
+  "version": "1.0.0",
+  "description": "server for restful api",
+  "main": "index.js",
+  "scripts": {
+    "remote": "json-server http://jsonplaceholder.typicode.com/db --port 3000",
+    "mockdb": "json-server mockdb.js --port 3000",
+    "demo": "json-server demo.js --port 3000",
+    "db": "json-server --watch db.json --port 3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Valten123/json-server.git"
+  },
+  "author": "valtenhyl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Valten123/json-server/issues"
+  },
+  "homepage": "https://github.com/Valten123/json-server#readme",
+  "keywords": [
+    "json-server"
+  ],
+  "dependencies": {
+    "json-server": "^0.16.1"
+  }
+}
