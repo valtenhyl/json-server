@@ -1,5 +1,7 @@
 // 用mockjs模拟生成数据
 let Mock = require('mockjs');
+// Mock.Random 是一个工具类，用于生成各种随机数据
+let Random = Mock.Random;
 
 module.exports = () => {
     // 使用 Mock

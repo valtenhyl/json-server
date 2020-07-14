@@ -1,5 +1,3 @@
-# [json-server 详解](https://www.cnblogs.com/fly_dragon/p/9150732.html)
-
 
 
 JSON-Server 是一个 Node 模块，运行 Express 服务器，你可以指定一个 json 文件作为 api 的数据源。
@@ -62,6 +60,14 @@ Watching...
 ```
 
 此时，你可以打开你的浏览器，然后输入：<http://localhost:53000/course>
+
+> 如果启动失败，错误信息 json-server requires at least version 10 of Node, please upgrade
+>
+> 说明node版本过低
+>
+> 解决办法：windows不能直接命令升级，可以去官网下载新版本覆盖安装
+
+
 
 ## json-server 的相关启动参数
 
@@ -364,10 +370,3 @@ server.listen(3000, () => {
 })
 ```
 
-#### 作者：[FlyDragon](http://www.cnblogs.com/fly_dragon/)
-
-#### 出处：<http://www.cnblogs.com/fly_dragon/>
-
-#### 关于作者：专注于微软平台项目架构、管理和企业解决方案。如有问题或建议，请多多赐教！
-
-#### 本文版权归作者和博客园共有，欢迎转载，但未经作者同意必须保留此段声明，且在文章页面明显位置给出原文连接，如有问题，可以通malun666@126.com 联系我，非常感谢。
